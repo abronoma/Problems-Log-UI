@@ -1,0 +1,133 @@
+.burden{
+    padding: 3% 10%;
+    margin-top: 30px;
+}
+
+.burden__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+   
+    ;
+}
+
+.burden__info h1{
+    font-size: 40px;
+}
+
+.burden__info p{
+    color: #413e3e;
+    text-align: center;
+}
+
+.burdens{
+    margin-top: 1.5rem;  
+}
+
+.burden__sender{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.burden__profile{
+    background: #E14640;
+    ;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+   align-items: center;
+   width: min-content;
+
+}
+
+.burden__detail{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: column;
+    font-size: 20px;
+    background: #F9F9F9;
+}
+
+.burden__detail p{
+    color: #413e3e;
+}
+
+
+.burden__detail button{
+    background: #E14640;
+    color: white;
+    border: 0;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.burden__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.burden__cta{
+    background: black;
+    color: white;
+    padding: 12px 35px;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.burden__share-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 3.4rem 0;
+    text-align: center;
+    padding: 2% 0;
+}
+
+
+.burden__share-main h2{
+    font-size: 32px;
+}
+
+.burden__share-main p{
+    color: #413e3e;
+}
+
+.burden__share-main button{
+    background: #E14640;
+    border: 0;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 700px) {
+    .burden__detail{
+        align-items: flex-start;
+        flex-direction: row;
+    
+    }
+
+    .burdens{
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+}
