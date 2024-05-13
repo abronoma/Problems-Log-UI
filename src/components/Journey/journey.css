@@ -1,0 +1,58 @@
+.journey {
+  padding: 5% 10% 2%;
+}
+
+.journey__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.journey__info h3 {
+  font-size: 34px;
+  color: black;
+  font-weight: 800;
+}
+
+.journey__info p {
+  text-align: center;
+  color: #413e3e;
+}
+
+.journey__about {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.journey__about-tip {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #413e3e;
+}
+
+.journey__about-tip h4{
+  font-weight: 900;
+  color: black;
+}
+
+.journey__about-tip p {
+  width: 90%;
+}
+
+@media only screen and (min-width: 900px) {
+  .journey__info p {
+    width: 65%;
+  }
+  .journey__about {
+    flex-direction: row;
+  }
+  .journey__about-tip p {
+    width: 80%;
+  }
+}
