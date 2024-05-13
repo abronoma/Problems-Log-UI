@@ -3,9 +3,9 @@
   align-items: center;
   justify-content: space-between;
   overflow-x: hidden;
-  padding: 15px 10px;
+  padding: 10px 10px;
   gap: 5px;
-  background:  #F9F9F9;;
+  background:  #F9F9F9;
 }
 
 .header__logo {

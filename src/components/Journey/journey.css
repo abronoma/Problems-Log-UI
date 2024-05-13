@@ -19,7 +19,8 @@
 
 .journey__info p {
   text-align: center;
-  color: #413e3e;
+  color: 
+  #737373;
 }
 
 .journey__about {
@@ -33,7 +34,8 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  color: #413e3e;
+  color: 
+  #737373;
 }
 
 .journey__about-tip h4{

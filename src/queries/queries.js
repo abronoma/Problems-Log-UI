@@ -1,4 +1,5 @@
-const api_url = import.meta.env.VITE_API_URL;
+ const api_url = `${window.location.origin}/api`;
+
 
 async function addBurden({message, email}) {
     const url = api_url + "/add-burden";

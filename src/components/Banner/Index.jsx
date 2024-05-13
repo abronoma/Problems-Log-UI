@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="banner__info">
         <h3>Welcome to</h3>
         <h2>
-          World <span style={{ color: "orangered" }}>Problems</span> Log
+          World <span style={{ color: "#E14640" }}>Problems</span> Log
         </h2>
         <p>
           Struggling to share openly? WPL offers a safe, anonyous space to
