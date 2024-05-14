@@ -12,9 +12,9 @@ const LogBurden = ({index, message}) => {
                   {message}
                 </p>
 
-                <button>View</button>
               </div>
             </div>
+          <button>View</button>
           </div>
     </>
   );

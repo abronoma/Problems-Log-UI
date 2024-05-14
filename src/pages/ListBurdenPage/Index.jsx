@@ -20,12 +20,20 @@ const ListOfBurdens = () => {
           <h1> Shared burdens </h1>
         </div>
 
-        <div className="burdens">
-        {
-          burdens.map((burden, index) => (
-            <LogBurden key={burden.id} index={index + 1} message={burden.message} />
-          ))
-        }
+        <div className="burdens"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          margin: "1rem 10rem",
+        }}
+        >
+          {
+            burdens.map((burden, index) => (
+              <LogBurden key={burden.id} index={index + 1} message={burden.message} />
+            ))
+          }
         </div>
         <div className="burden__btn">
           <button className="burden__cta">Load more</button>

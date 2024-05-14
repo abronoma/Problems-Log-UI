@@ -15,7 +15,11 @@ app.use(express.urlencoded({extended: true}));
 
 const db = getFirestore();
 
-app.get("/fetch-burdens", async (req, res) => {
+app.get("/api", (req, res) => {
+  res.send("Hello from Firebase!");
+});
+
+app.get("/api/fetch-burdens", async (req, res) => {
   const problemsRef = db.collection("problems");
   const snapshot = await problemsRef.get();
   const problems = [];
@@ -27,7 +31,7 @@ app.get("/fetch-burdens", async (req, res) => {
   res.json(problems);
 });
 
-app.post("/add-burden", async (req, res) => {
+app.post("/api/add-burden", async (req, res) => {
   const {message, email} = req.body;
 
   if (!message) {
@@ -47,4 +51,4 @@ app.post("/add-burden", async (req, res) => {
   });
 });
 
-exports.api = onRequest(app);
+exports.app = onRequest(app);

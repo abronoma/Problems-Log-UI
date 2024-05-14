@@ -28,32 +28,33 @@
 }
 
 .burden__sender{
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
+    display: grid;
+    gap: .5rem;
+    padding: 1.5rem 3rem;
+    grid-template-columns: auto 1fr auto;
+    background-color: #F9F9F9;
+    min-width: 100%;
 }
 
 .burden__profile{
     background: #E14640;
-    ;
     color: white;
     font-size: 10px;
     padding: 10px;
     border-radius: 5px;
     display: flex;
    align-items: center;
-   width: min-content;
-
+   max-width: fit-content;
+   height: fit-content;
 }
 
 .burden__detail{
     display: flex;
-    align-items: flex-end;
     justify-content: space-between;
     gap: 1rem;
     flex-direction: column;
     font-size: 20px;
-    background: #F9F9F9;
+    max-width: 35rem;
 }
 
 .burden__detail p{
@@ -62,13 +63,14 @@
 }
 
 
-.burden__detail button{
+.burden__sender button{
     background: #E14640;
     color: white;
     border: 0;
     padding: 10px 25px;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 3rem;
 }
 
 .burden__btn{
