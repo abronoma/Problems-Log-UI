@@ -35,6 +35,8 @@ const ListOfBurdens = () => {
             ))
           }
         </div>
+
+        
         <div className="burden__btn">
           <button className="burden__cta">Load more</button>
         </div>
