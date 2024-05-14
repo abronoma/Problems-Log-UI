@@ -1,4 +1,4 @@
-
+import './log.css'
 
 const LogBurden = ({index, message}) => {
   return (
@@ -14,7 +14,7 @@ const LogBurden = ({index, message}) => {
 
               </div>
             </div>
-          <button>View</button>
+          <button className="View-buttons">View</button>
           </div>
     </>
   );
