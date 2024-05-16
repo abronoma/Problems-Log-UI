@@ -66,15 +66,16 @@
 
 
 .burden__sender button{
-    background: #E14640;
-    color: white;
-    border: 0;
-    padding: 16px 24px 16px 24px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 3rem;
-    height: fit-content;
-}
+        background: #e14640;
+        color: #fff;
+        border: 0;
+        padding: 14px  36px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 3rem;
+        height: fit-content;
+    }
+
 
 .burden__btn{
     display: flex;

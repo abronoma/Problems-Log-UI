@@ -26,7 +26,7 @@ const ListOfBurdens = () => {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          margin: "1rem 10rem",
+          margin: "1rem 2rem",
         }}
         >
           {
