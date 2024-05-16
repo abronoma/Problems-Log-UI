@@ -46,6 +46,7 @@
    align-items: center;
    max-width: fit-content;
    height: fit-content;
+   margin-left: auto;
 }
 
 .burden__detail{
@@ -54,12 +55,13 @@
     gap: 1rem;
     flex-direction: column;
     font-size: 20px;
-    max-width: 35rem;
+    /* max-width: 35rem; */
 }
 
 .burden__detail p{
     color: 
     #737373;
+    width: 100%;
 }
 
 
@@ -67,10 +69,11 @@
     background: #E14640;
     color: white;
     border: 0;
-    padding: 10px 25px;
+    padding: 16px 24px 16px 24px;
     border-radius: 5px;
     cursor: pointer;
     margin-left: 3rem;
+    height: fit-content;
 }
 
 .burden__btn{
@@ -97,7 +100,7 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
-    margin: 3.4rem 0;
+    margin: 2rem 0;
     text-align: center;
     padding: 2% 0;
 }

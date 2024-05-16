@@ -1,6 +1,9 @@
-// Global options
-const {setGlobalOptions} = require("firebase-functions/v2/options");
+// Global options used 2 set the maximum no of servers 
+// that is deployed when the the requst coming is too much for 
+const {setGlobalOptions} = require("firebase-functions/v2/options"); 
+// importing from firebase dependencies
 setGlobalOptions({maxInstances: 10});
+// prevents the  from opening other 
 
 const {onRequest} = require("firebase-functions/v2/https");
 const express = require("express");
@@ -8,12 +11,14 @@ const admin = require("firebase-admin");
 const {getFirestore, Timestamp} = require("firebase-admin/firestore");
 
 admin.initializeApp();
+const db = getFirestore();
+
 
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-const db = getFirestore();
+
 
 app.get("/api", (req, res) => {
   res.send("Hello from Firebase!");
